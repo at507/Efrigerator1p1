@@ -1,3 +1,12 @@
+<!-- 
+
+// aat issue #7 : 9/16/2012
+// Add tab for navigation with option
+// BaseActivity was created and it will have actionbar 
+// All other activities will inherit this activity
+
+-->
+      
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.efridgerator1p1"
     android:versionCode="1"
@@ -19,6 +28,10 @@
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+        </activity>
+        <activity 
+            android:name= ".BaseActivity">
+            
         </activity>
     </application>
 
