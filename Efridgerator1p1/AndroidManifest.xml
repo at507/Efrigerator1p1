@@ -1,4 +1,7 @@
 <!-- 
+// aat issue #1 : 9/17/2012
+// Calendar
+// calendarActivity was created and it is assigned as launcher 
 
 // aat issue #7 : 9/16/2012
 // Add tab for navigation with option
@@ -15,13 +18,14 @@
     <uses-sdk
         android:minSdkVersion="8"
         android:targetSdkVersion="15" />
+    <uses-permission android:name="android.permission.VIBRATE"/>
 
     <application
         android:icon="@drawable/ic_launcher"
         android:label="@string/app_name"
         android:theme="@style/AppTheme" >
         <activity
-            android:name=".MainActivity"
+            android:name=".CalendarActivity"
             android:label="@string/title_activity_main" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

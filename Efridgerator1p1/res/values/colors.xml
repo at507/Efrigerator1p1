@@ -1,0 +1,12 @@
+<!-- 
+
+// aat issue #1 : 9/16/2012
+// Calendar screen
+// This xml was created in order to store value of colors in human readable forms
+// At first, I am going to use it for calendar activity hence committing against it
+
+--> 
+ 
+<resources>
+     <color name="blue">#0000ff</color>
+</resources>
